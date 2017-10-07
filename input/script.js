@@ -14,7 +14,7 @@ function fun2() {
 
     for(var i = 0; i < radio.length; i++) {
         if (radio[i].checked) {
-            alert('Выбран ' +i+ ' элемент');
+            alert('Выбран ' + (i+1) + ' элемент');
         }
     }
 }
