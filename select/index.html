@@ -5,14 +5,20 @@
     <title>Javascript Tutorial</title>
 </head>
 <body>
-<select name="" id="fruits" onchange="select()">
-    <option value="">Apple</option>
-    <option value="">Orange</option>
-    <option value="">Banana</option>
-    <option value="">Pineapple</option>
-</select>
+<div class="block__select">
+    <select name="" id="fruits" onchange="select()">
+        <option value="">Apple</option>
+        <option value="">Orange</option>
+        <option value="">Banana</option>
+        <option value="">Pineapple</option>
+    </select>
 
-<p id="text"></p>
+    <p id="text"></p>
+</div>
+<div>
+    <input type="range" min="0" max="100" step="2" oninput="range()" id="range">
+    <p id="rangeText"></p>
+</div>
 
 <script src="script.js"></script>
 </body>
