@@ -9,6 +9,9 @@ function range() {
     var text = document.getElementById('rangeText');
 
     text.innerHTML = rng.value;
+
+    var i1 = document.getElementById('r1');
+    i1.value = rng.value;
 }
 
 
