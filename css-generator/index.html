@@ -8,27 +8,27 @@
 <body>
     <div class="generator">
         <div class="row">
-            <span class="">Верхний левый угол:</span>
-            <input type="range" id="rngTopLeft" min="0" max="100" value="0">
+            <span class="row__label">Верхний левый угол:</span>
+            <input type="range" id="rngTopLeft" min="0" max="100" value="0" oninput="changeBrds()">
             <input type="text" id="txtTopLeft" value="0">
         </div>
         <div class="row">
-            <span class="">Верхний правый угол:</span>
-            <input type="range" id="rngTopRight" min="0" max="100" value="0">
+            <span class="row__label">Верхний правый угол:</span>
+            <input type="range" id="rngTopRight" min="0" max="100" value="0" oninput="changeBrds()">
             <input type="text" id="txtTopRight" value="0">
         </div>
         <div class="row">
-            <span class="">Нижний левый угол:</span>
-            <input type="range" id="rngBottomRight" min="0" max="100" value="0">
+            <span class="row__label">Нижний левый угол:</span>
+            <input type="range" id="rngBottomRight" min="0" max="100" value="0" oninput="changeBrds()">
             <input type="text" id="txtBottomRight" value="0">
         </div>
         <div class="row">
-            <span class="">Нижний правый угол:</span>
-            <input type="range" id="rngBottomLeft" min="0" max="100" value="0">
+            <span class="row__label">Нижний правый угол:</span>
+            <input type="range" id="rngBottomLeft" min="0" max="100" value="0" oninput="changeBrds()">
             <input type="text" id="txtBottomLeft" value="0">
         </div>
-
     </div>
+    <div class="result" id="result"></div>
 <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
