@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="tabs" id="tabs">
-        <div class="tab active">Tab 1</div>
-        <div class="tab">Tab 2</div>
-        <div class="tab">Tab 3</div>
-        <div class="tabs__content">Content 1</div>
-        <div class="tabs__content">Content 2</div>
-        <div class="tabs__content">Content 3</div>
+    <div class="wrapper">
+        <div class="tabs" id="tabs">
+            <div class="tab active" onclick="openTab('first')">Tab 1</div>
+            <div class="tab" onclick="openTab('second')">Tab 2</div>
+            <div class="tab" onclick="openTab('third')">Tab 3</div>
+        </div>
+
+        <div id="first" class="content">Content 1</div>
+        <div id="second" class="content">Content 2</div>
+        <div id="third" class="content">Content 3</div>
     </div>
 
 <script type="text/javascript" src="main.js"></script>
