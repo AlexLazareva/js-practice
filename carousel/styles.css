@@ -1,0 +1,10 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.button {
+    text-decoration: none;
+}
+.navigation {
+    text-align: center;
+}
