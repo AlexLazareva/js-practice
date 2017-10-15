@@ -3,6 +3,7 @@
     width: 400px;
     height: 400px;
     background-color: yellow;
+    margin-top: 20px;
 }
 
 #myAnimation {
@@ -10,5 +11,4 @@
     width: 50px;
     height: 50px;
     background-color: red;
-    margin-top: 20px;
 }
