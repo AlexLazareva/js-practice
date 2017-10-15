@@ -11,9 +11,12 @@
 }
 
 .modal__content {
-    width: 80%;
+    width: 70%;
+    max-width: 600px;
+    min-height: 200px;
     background-color: #fefefe;
     border: 1px solid #888;
+    border-radius: 7px;
     margin: 15% auto;
     padding: 20px;
 }
@@ -23,4 +26,5 @@
     font-size: 28px;
     font-weight: bold;
     color: #aaaaaa;
+    cursor: pointer;
 }
